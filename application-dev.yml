@@ -1,1 +1,12 @@
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    discovery:
+      client:
+        service-url: http://localhost:8761/eureka/
+    eureka:
+      client:
+        register-with-eureka: true
+        fetch-registry: true
 
